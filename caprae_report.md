@@ -28,4 +28,4 @@ Score = (Email valid × 0.5) + (LinkedIn found × 0.3) + (Website alive × 0.2)
 
 ##  Submitted by
 Yerra Guna Shekhar  
-Email: yerraguna16072003@gmail.com
+Email: guna.datascientist@gmail.com
