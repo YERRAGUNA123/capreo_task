@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
-st.title("🕵️ Company Scraper")
+st.title(" Company Scraper")
 
 if st.button("Scrape YC Startups"):
     url = "https://en.wikipedia.org/wiki/List_of_Y_Combinator_startups"
@@ -20,5 +20,5 @@ if st.button("Scrape YC Startups"):
     df = pd.DataFrame(sorted(set(companies)), columns=["company"])
     df.to_csv("sample_leads.csv", index=False)
     
-    st.success(f"✅ Scraped {len(df)} companies to sample_leads.csv")
+    st.success(f" Scraped {len(df)} companies to sample_leads.csv")
     st.dataframe(df.head(10))
